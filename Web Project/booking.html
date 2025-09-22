@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Title and Favicon -->
+    <title>تكنوزون | احجز جهازك</title>
+    <link href="img/hero.png" rel="icon" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="احجز جهازك من تكنوزون بسهولة عبر تعبئة النموذج وسيتم التواصل معك لتأكيد الطلب. موقعنا: اليمن - صنعاء." />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap & Template -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body style="font-family: 'Tajawal', sans-serif; text-align: right;">
+    <div class="container-xxl bg-white p-0">
+      <!-- Spinner -->
+      <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem" role="status">
+          <span class="sr-only">جارٍ التحميل...</span>
+        </div>
+      </div>
+
+                <div class="container-xxl position-relative p-0">
+                            <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+          <a href="" class="navbar-brand p-0">
+            <h1 class="text-primary m-0" style="font-size: 1.5rem">
+              <i class="fa fa-laptop me-3"></i>  تكنوزون
+            </h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 pe-4">
+              <a href="index.html" class=" nav-item nav-link">الرئيسية</a>
+              <a href="about.html" class=" nav-item nav-link">من نحن</a>
+              <a href="menu.html" class="nav-item nav-link">المنتجات</a>
+              <a href="service.html" class="nav-item nav-link active ">الخدمات</a>
+
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">الصفحات</a>
+                <div class="dropdown-menu m-0">
+                  <a href="booking.html" class="dropdown-item">طلب / حجز</a>
+                  <a href="testimonial.html" class="dropdown-item">آراء العملاء</a>
+                </div>
+              </div>
+
+              <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
+            </div>
+
+            <a href="./booking.html" class="btn btn-primary py-2" style="font-size: 13px; padding-inline: 0.6rem;">اطلب الآن</a>
+          </div>
+        </nav>
+                <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                    <div class="container my-5 py-5">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-6 text-center text-lg-start">
+                                <h1 class="display-3 text-white animated slideInLeft" width="center">  طلب الحجز </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+      <!-- Booking Form -->
+      <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">نموذج الحجز</h5>
+            <h1 class="mb-5">قم بتعبئة النموذج لحجز جهازك</h1>
+          </div>
+          <div class="row g-4 justify-content-center">
+            <div class="col-lg-8">
+              <div class="wow fadeInUp" data-wow-delay="0.2s">
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input type="text" class="form-control" id="name" placeholder="الاسم الكامل" />
+                        <label for="name">الاسم الكامل</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="email" placeholder="البريد الإلكتروني" />
+                        <label for="email">البريد الإلكتروني</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input type="tel" class="form-control" id="phone" placeholder="رقم الهاتف" />
+                        <label for="phone">رقم الهاتف</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <select class="form-select" id="device">
+                          <option selected>اختر نوع الجهاز</option>
+                          <option value="Dell XPS 13">Dell XPS 13</option>
+                          <option value="HP Spectre x360">HP Spectre x360</option>
+                          <option value="Apple MacBook Air M2">Apple MacBook Air M2</option>
+                          <option value="Lenovo ThinkPad X1">Lenovo ThinkPad X1</option>
+                          <option value="ASUS ROG Gaming">ASUS ROG Gaming</option>
+                        </select>
+                        <label for="device">نوع الجهاز</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <input type="number" class="form-control" id="quantity" placeholder="الكمية" min="1" />
+                        <label for="quantity">الكمية</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="ملاحظات إضافية" id="notes" style="height: 150px"></textarea>
+                        <label for="notes">ملاحظات إضافية</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary w-100 py-3" type="submit">تأكيد الحجز</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+                   <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" >
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"> تكنوزون </h4>
+                            <a class="btn btn-link" href="./index.html" > الرئيسية</a>
+                            <a class="btn btn-link" href="./about.html" > من نحن </a>
+                            <a class="btn btn-link" href="./contact.html" > تواصل معنا </a >
+                            <a class="btn btn-link" href="./booking.html" > طلب / حجز </a >
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4" > تواصل </h4>
+                            <p class="mb-2"> <i class="fa fa-map-marker-alt me-3"></i> صنعاء  </p>
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+967 776926559 </p>
+                            <p class="mb-2" style="font-size: 15px"> <i class="fa fa-envelope me-3"></i> anwaralbelali16@gamil.com </p>
+                            <div class="d-flex pt-2"> <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/ahmed-maher-algohary" target="_blank"  ><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-light btn-social"href="https://ahmedmaher-portfolio.vercel.app/"target="_blank"><i class="fas fa-user"></i ></a>
+                                <a class="btn btn-outline-light btn-social" href="https://web.facebook.com/profile.php?id=100012154268952" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://github.com/Ahmed-Maher77" target="_blank" ><i class="fab fa-github"></i ></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"> النشرة البريدية </h4>
+                            <p> اشترك في نشرتنا للحصول على عروض خاصة، منتجات جديدة، وتحديثات. </p>
+                            <div class="position-relative mx-auto" style="max-width: 400px" >
+                                <input class="form-control border-primary w-100" type="text" placeholder="بريدك الإلكتروني" style="padding: 10px; padding-right: 40px" />
+                                <div id="newsletter-error" class="invalid-feedback" style="display: block" ></div>
+                                <button type="button" id="subscribe-button"class="btn btn-primary py-2 position-absolute end-0 me-2 rounded-circle" 
+                                style=" font-size: 10px;
+                                        top: 9px;
+                                        width: 30px;
+                                        height: 30px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center; " >
+                                    <i class="fa fa-paper-plane"></i>
+                                </button>
+                            </div>
+                            <!-- Newsletter Success Modal -->
+                            <div class="modal fade" id="newsletterSuccessModal"tabindex="-1" aria-labelledby="newsletterSuccessModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="newsletterSuccessModalLabel" > تم الاشتراك! </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
+                                        </div>
+                                        <div class="modal-body" style="color: #000000" > شكرًا لك على اشتراكك في النشرة البريدية! </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" > موافق </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" >
+                                &copy; جميع الحقوق محفوظة. تصميم وتطوير
+                                <a class="border-bottom" href="https://anwaralbelali-portfolio.vercel.app/" title="Go to Anwar Albelali Portfolio" > Anwar Albelali </a >
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                <div class="footer-menu">
+                                    <a href="index.html">الرئيسية</a>
+                                    <a href="about.html">من نحن</a>
+                                    <a href="contact.html">تواصل معنا</a>
+                                    <a href="booking.html">طلب / حجز</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top rounded-3"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
